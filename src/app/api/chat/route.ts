@@ -3,6 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { extractKeywords } from '@/lib/keywords';
 import { detectCrisis } from '@/lib/crisis';
 import { compressContext } from '@/lib/sessionMemory';
+export async function POST(req: NextRequest): Promise<NextResponse> {
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
