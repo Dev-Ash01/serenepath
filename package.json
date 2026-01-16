@@ -1,0 +1,31 @@
+{
+  "name": "serenepath",
+  "version": "1.0.0",
+  "description": "AI-powered mental wellness chatbot with therapeutic conversations and smart token optimization",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "@google/generative-ai": "^0.3.0",
+    "firebase": "^10.7.0",
+    "onnxruntime-web": "^1.17.0",
+    "framer-motion": "^10.16.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "@types/react-dom": "^18.2.0"
+  }
+}
