@@ -42,7 +42,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     );
 
     const responseText =
-      result.response.candidates?.?.content?.parts?.?.text ||
+      result.response.candidates?.[0]?.content?.parts?.[0]?.text ||
       'I hear you. Please tell me more about how you are feeling.';
 
     const emotion = detectEmotion(message);
