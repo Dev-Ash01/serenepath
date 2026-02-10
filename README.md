@@ -11,7 +11,7 @@ A zero-cost, privacy-focused AI mental wellness chatbot that provides empathetic
 - **Crisis Escalation**: Detects crisis signals and provides resources
 - **Zero-Cost Deployment**: Free tier Google Gemini API + Firebase + Vercel
 - **Privacy-First**: Minimal data retention, encrypted storage, user control
-- **Mobile-Responsive**: Beautiful UI optimized for all devices
+- **Mobile-Responsive**: Beautiful UI optimized for every device
 
 ## 🏗️ Tech Stack
 
